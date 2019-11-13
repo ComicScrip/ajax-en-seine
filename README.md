@@ -1,9 +1,9 @@
-#Instructions
+# Instructions
 
 La branche master contient un "code à trous", il suffira donc de remplir le corps des fonctions dans ```script.js``` pour 
 obtenir une application fonctionnelle. Un corrigé complet est disponible sur la branche correction. Si vous voulez vraiement apprendre, ne le regardez qu'en dernier recours.
 
-#Documentation de l'API
+# Documentation de l'API
 
 https://geo.api.gouv.fr/decoupage-administratif/communes#communes-list
 
