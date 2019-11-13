@@ -1,0 +1,130 @@
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+  min-width: 1000px;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 0;
+}
+.autocomplete-items li {
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  min-height: 1000px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#city-details p, #city-details h2 {
+  text-align: right;
+}
+#map {
+  height: 350px;
+  margin-bottom: 30px;
+}
+header {
+  padding: 25px 100px 25px 100px;
+  height: 200px;
+  background-color: #45555d;
+  border-bottom: #36474f solid 2px;
+}
+.sign-outer-box {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  height: 100%;
+  border: #d4d4d4 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sign-inner-box {
+  background-color: #E81A21;
+  width: 100%;
+  height: 100%;
+  border: #d4d4d4 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+.sign-innermost-box {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.sign-inner-box p {
+  padding-top: 10px;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 1250px) {
+  .sign-inner-box p {
+    padding-top: 20px;
+    font-size: 60px;
+  }
+}
+footer {
+  border-top: #717171 solid 2px;
+  background-color: #7d8184;
+  height: 150px;
+  padding-top: 50px;
+}
+footer > div {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyleft {
+  margin-right: 10px;
+  float: left;
+  position: relative;
+  top: -2px
+}
+
+
+
+
+

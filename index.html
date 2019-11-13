@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Infos communes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="sign-outer-box">
+        <div class="sign-inner-box">
+            <div class="sign-innermost-box" >
+                <p>
+                    AJAX-SUR-SEINE
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="row">
+        <div class="col-md-6 ">
+            <form autocomplete="off" id="autocomplete-container">
+                <div class="autocomplete">
+                    <input id="user-input"
+                           type="text"
+                           name="userInput"
+                           placeholder="Entrez un code postal ou un nom de commune"
+                    >
+                    <ol id="autocomplete-list" class="autocomplete-items"></ol>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <div id="city-details"></div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div>
+        <img src="img/copyleft.png" height="20px" width="20px" alt="copyleft" class="copyleft"/>
+        <p>2019 Pierre Genthon pour la Wild Code School</p>
+    </div>
+</footer>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+<script src="script.js"></script>
+</body>
+</html>
